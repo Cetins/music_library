@@ -17,6 +17,5 @@ artist_repository.save(artist_2)
 artist_3 = Artist("Alicia Keys", 41)
 artist_repository.save(artist_3)
 
-artist_repository.delete(22)
 
 pdb.set_trace()

@@ -41,6 +41,8 @@ def select_all():
             row['id']
         )
         artists.append(artist)
+        
+    return artists
 
 def update(artist):
     sql = "UPDATE artists SET (name, age, id) = (%s, %s, %s) WHERE id = %s"
